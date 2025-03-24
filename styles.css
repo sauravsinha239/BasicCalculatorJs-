@@ -4,25 +4,25 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: hsl(188, 58%, 87%)
+    background-image: linear-gradient(rgb(85, 43, 235), rgb(138, 141, 121), rgb(50, 12, 71));
 }
 
 #calculator {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(rgb(188, 226, 252), rgb(25, 90, 116));
+    background-image: linear-gradient(rgb(106, 166, 206), rgb(49, 17, 78));
     overflow: hidden;
-    max-width: 300px;
+    max-width: 400px;
     border-radius: 20px;
 }
 
 #display {
     width: 100%;
-    padding: 8px;
-    font-size: 5rem;
+    padding: 1px;
+    font-size: 3rem;
     text-align: left;
     border: none;
     background-image: linear-gradient(rgb(157, 175, 187), rgb(25, 90, 116));
-    color: white;
+    color: rgb(255, 60, 0);
 
 }
 
@@ -50,7 +50,8 @@ h2 {
     font-size: .8rem;
     color: green;
 }
-.eq{
+
+.eq {
     background-color: black;
 }
 
